@@ -50,7 +50,7 @@
 				container.className = container.className.replace( ' toggled', '' );
 				button.setAttribute( 'aria-expanded', 'false' );
 				menu.setAttribute( 'aria-expanded', 'false' );
-			}	
+			}
 		}
 
 		// Get all the link elements within the menu.
@@ -205,7 +205,7 @@
 
 		function normalizeHeights() {
 			items.each( function() { //add heights to array
-				heights.push( $(this).height() ); 
+				heights.push( $(this).height() );
 			} );
 			tallest = Math.max.apply( null, heights ); //cache largest value
 			items.css( 'min-height', tallest + 'px' );
@@ -215,8 +215,8 @@
 		$( window ).on( 'resize orientationchange', function () {
 			tallest = 0, heights.length = 0; //reset vars
 			items.css( 'min-height', '0' ); //reset min-height
-			normalizeHeights(); //run it again 
+			normalizeHeights(); //run it again
 		} );
 	}
-
+    $(".hero-image").hide().fadeIn(2000);
 } )(jQuery,window)

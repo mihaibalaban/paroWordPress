@@ -131,14 +131,14 @@ $lawyeriax_top_bar_hide = get_theme_mod('lawyeriax_top_bar_hide', true); ?>
 							lawyeriax_lite_the_custom_logo();
 
 							if ( is_front_page() && is_home() ){ ?>
-								<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+								<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?= 'Parodontologie' ?></a></h1>
 								<?php
 							} else {?>
 								<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 								<?php
 							}
 
-							$description = get_bloginfo( 'description', 'display' );
+							$description = "Dr. Teodor GEORGESCU    ";
 							if ( $description || is_customize_preview() ) { ?>
 								<p class="site-description"><?php echo $description; ?></p>
 								<?php

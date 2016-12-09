@@ -40,9 +40,9 @@
 					<div class="col-sm-10 col-sm-offset-1 section-line section-line-footer"></div>
 				<?php endif; ?>
 				<div class="site-info-inner">
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'lawyeriax-lite' ) ); ?>" rel="nofollow"><?php printf( esc_html__( 'Proudly powered by %s', 'lawyeriax-lite' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'lawyeriax-lite' ), 'lawyeriax-lite', '<a href="http://themeisle.com/" rel="nofollow">Themeisle.com</a>' ); ?>
+<!--					<a href="--><?php //echo esc_url( __( 'https://wordpress.org/', 'lawyeriax-lite' ) ); ?><!--" rel="nofollow">--><?php //printf( esc_html__( 'Proudly powered by %s', 'lawyeriax-lite' ), 'WordPress' ); ?><!--</a>-->
+<!--					<span class="sep"> | </span>-->
+<!--					--><?php //printf( esc_html__( 'Theme: %1$s by %2$s.', 'lawyeriax-lite' ), 'lawyeriax-lite', '<a href="http://themeisle.com/" rel="nofollow">Themeisle.com</a>' ); ?>
 				</div>
 			</div><!-- .site-info -->
 		</div>
@@ -58,3 +58,4 @@
 
 </body>
 </html>
+<!--#2196f3-->

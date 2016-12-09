@@ -4547,8 +4547,8 @@ msgstr "Administrator"
 
 #. translators: site tagline
 #: wp-admin/includes/schema.php:530
-msgid "Just another %s site"
-msgstr "Un simplu sit %s"
+msgid "Dr. Teodor GEORGESCU"
+msgstr "Dr. Teodor GEORGESCU"
 
 #. translators: default start of the week. 0 = Sunday, 1 = Monday
 #: wp-admin/includes/schema.php:402
@@ -4558,8 +4558,8 @@ msgstr "1"
 
 #. translators: site tagline
 #: wp-admin/includes/schema.php:398
-msgid "Just another WordPress site"
-msgstr "Un simplu sit WordPress"
+msgid "Dr. Teodor GEORGESCU"
+msgstr "Dr. Teodor GEORGESCU"
 
 #: wp-admin/includes/schema.php:396
 msgid "My Site"

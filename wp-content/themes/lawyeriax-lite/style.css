@@ -556,7 +556,7 @@ input[type="datetime-local"],
 input[type="color"],
 textarea {
 	font-size: 13px;
-	color: #200303;
+	color: #2196f3;
     border: 1px solid #EBEBEB;
     border-radius: 2px;
     max-width: 100%;
@@ -564,7 +564,7 @@ textarea {
 
 select {
 	font-size: 13px;
-	color: #200303;
+	color: #2196f3;
     border: 1px solid #EBEBEB;
     border-radius: 2px;
     max-width: 100%;
@@ -791,7 +791,7 @@ button.menu-toggle {
     background: none;
     font-size: 25px;
     padding: 5px 0;
-    color: #200303;
+    color: #2196f3;
     margin-bottom: -10px;
 }
 button.menu-toggle:hover {
@@ -838,7 +838,7 @@ button.menu-toggle:hover {
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-    color: #200303;
+    color: #2196f3;
 }
 
 .dropdownmenu i,
@@ -1107,7 +1107,7 @@ button.menu-toggle:hover {
 }
 
 .sticky .entry-content {
-	color: #200303;
+	color: #2196f3;
 }
 
 .content-wrap {
@@ -1309,7 +1309,7 @@ object {
     background: #FFF;
 }
 .top-bar{
-	background: #200303;
+	background: #2196f3;
 	font-size: 13px;
 	line-height: 18px;
     color: #878787;
@@ -1398,7 +1398,7 @@ p.site-description {
 	background-color: #EBEBEB;
 }
 .main-navigation div > ul::-webkit-scrollbar-thumb {
-	background-color: #200303;
+	background-color: #2196f3;
 }
 
 .custom-logo-link{
@@ -1862,7 +1862,7 @@ h2.widget-title {
 }
 .widget_calendar thead tr {
     background: #EBEBEB;
-    color: #200303;
+    color: #2196f3;
 }
 .widget_calendar thead tr th {
 	font-weight: 400;
@@ -1872,7 +1872,7 @@ h2.widget-title {
 ## Footer
 -------------------------*/
 .site-footer {
-	background: #200303;
+	background: #2196f3;
 	color: rgba(255,255,255,0.7);
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -2079,7 +2079,7 @@ h2.widget-title {
 .pirate_forms_wrap input {
   	box-shadow: none;
     font-size: 13px;
-    color: #200303;
+    color: #2196f3;
     border: 1px solid #EBEBEB;
     border-radius: 2px;
     max-width: 100%;
@@ -2381,7 +2381,7 @@ div.wpcf7-mail-sent-ok {
 	    -moz-transition: all 0.3s;
 	    -o-transition: all 0.3s;
 	    transition: all 0.3s;
-	    color: #200303;
+	    color: #2196f3;
 	}
 	.main-navigation ul li:hover > ul,
 	.main-navigation ul li.focus > ul {
@@ -2504,4 +2504,195 @@ div.wpcf7-mail-sent-ok {
 		position: fixed;
 	}
 
+}
+.logo {
+    width: 200px;
+}
+
+.navbar-nav>li>a {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.services {
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.icon-list-icon {
+    padding: 25px;
+    border-radius: 22% 50% 22% 50%;
+    border: 1px solid #e5e5e5;
+    width: 100px;
+    height: 100px;
+    background: #f4f4f4;
+    text-align: center;
+    color: #37C8D8;
+    transition: all .5s ease-in-out;
+    display: inline-block;
+    float: left;
+}
+
+.icon-list-icon > span {
+    display: inline-block;
+}
+
+.icon-list-icon:hover {
+    background-color: #37C8D8;
+    color: white;
+}
+
+.icon-list-content {
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 66%;
+    overflow: hidden;
+}
+
+.icon-list-item {
+    padding-top: 50px;
+}
+
+.icon-list-title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.icon-list-under {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    padding-left: 38px;
+}
+
+.hero-title {
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+}
+
+.hero-under-title {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.hero-container {
+    background: url("http://www.cliniquedent.ro/images/slider/7f461b438859adee6c1554224f542be2.jpg");
+    width: 100%;
+    min-height: 416px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.btn-hero {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+    transition: all .5s ease-in-out;
+    margin: 25px 0px;
+}
+
+.btn-hero:hover {
+    color: gray;
+    background: white;
+}
+
+.contact-section {
+    background: url("   ") no-repeat center center;
+    -webkit-background-size: cover;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.contact-form-title {
+    color: #fff;
+}
+
+.input-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.input-list>li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.style-1 input[type="text"] {
+    padding: 10px;
+    border: solid 4px #d8d8d8;
+    transition: border 0.5s;
+}
+.style-1 input[type="text"]:focus,
+.style-1 input[type="text"].focus {
+    border: solid 4px #37C8D8;
+}
+
+.contact-button {
+    width: 100%;
+}
+
+.testimonial-text {
+    color: #fff;
+}
+
+.testimonial {
+    border-left: 2px solid white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.testimonial-name {
+    text-align: right;
+    color: #fff;
+    margin-top: 15px;
 }
